@@ -1,10 +1,1 @@
-*.csv filter=lfs diff=lfs merge=lfs -text
-*.gitignore filter=lfs diff=lfs merge=lfs -text
-*.python-version filter=lfs diff=lfs merge=lfs -text
-*.md filter=lfs diff=lfs merge=lfs -text
-*.py filter=lfs diff=lfs merge=lfs -text
-*.txt filter=lfs diff=lfs merge=lfs -text
-HEAD !text !filter !merge !diff
-HEAD~ !text !filter !merge !diff
-*.* !text !filter !merge !diff
 data/foia_150k_plus.csv filter=lfs diff=lfs merge=lfs -text
